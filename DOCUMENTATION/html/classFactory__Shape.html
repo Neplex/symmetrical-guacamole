@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
@@ -84,6 +84,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#friends">Friends</a>  </div>
   <div class="headertitle">
 <div class="title">Factory_Shape Class Reference</div>  </div>
@@ -91,8 +93,24 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="contents">
 
 <p><code>#include &lt;factory_shape.hpp&gt;</code></p>
-
-<p>Inherits <a class="el" href="classUnique.html">Unique&lt; Factory_Shape &gt;</a>.</p>
+<div class="dynheader">
+Inheritance diagram for Factory_Shape:</div>
+<div class="dyncontent">
+<div class="center"><img src="classFactory__Shape__inherit__graph.png" border="0" usemap="#Factory__Shape_inherit__map" alt="Inheritance graph"/></div>
+<map name="Factory__Shape_inherit__map" id="Factory__Shape_inherit__map">
+<area shape="rect" id="node2" href="classUnique.html" title="{Unique\&lt; Factory_Shape \&gt;\n||+ ref()\l# Unique()\l# ~Unique()\l&#45; Unique()\l&#45; operator=()\l}" alt="" coords="5,204,180,340"/>
+<area shape="rect" id="node3" href="classUnique.html" title="{Unique\&lt; T \&gt;\n||+ ref()\l# Unique()\l# ~Unique()\l&#45; Unique()\l&#45; operator=()\l}" alt="" coords="45,5,140,141"/>
+</map>
+</div>
+<div class="dynheader">
+Collaboration diagram for Factory_Shape:</div>
+<div class="dyncontent">
+<div class="center"><img src="classFactory__Shape__coll__graph.png" border="0" usemap="#Factory__Shape_coll__map" alt="Collaboration graph"/></div>
+<map name="Factory__Shape_coll__map" id="Factory__Shape_coll__map">
+<area shape="rect" id="node2" href="classUnique.html" title="{Unique\&lt; Factory_Shape \&gt;\n||+ ref()\l# Unique()\l# ~Unique()\l&#45; Unique()\l&#45; operator=()\l}" alt="" coords="5,204,180,340"/>
+<area shape="rect" id="node3" href="classUnique.html" title="{Unique\&lt; T \&gt;\n||+ ref()\l# Unique()\l# ~Unique()\l&#45; Unique()\l&#45; operator=()\l}" alt="" coords="45,5,140,141"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -104,6 +122,18 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa643006f8c63b4da9be2f6db28d2b6a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9cd98b84feff400df307ce52785150f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classShape.html">Shape</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFactory__Shape.html#ab9cd98b84feff400df307ce52785150f">create_shape</a> (std::string const &amp;id, <a class="el" href="classU__Sh__d__Stack.html">U_Sh_d_Stack</a> &amp;c_s)</td></tr>
 <tr class="separator:ab9cd98b84feff400df307ce52785150f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a256d1d4073a18db8ba2ee9d16853562c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFactory__Shape.html#a256d1d4073a18db8ba2ee9d16853562c">Factory_Shape</a> ()</td></tr>
+<tr class="separator:a256d1d4073a18db8ba2ee9d16853562c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9a8122d1db8154ad5304d01ef20827cb"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string const , <a class="el" href="factory__shape_8hpp.html#a207047cdc22886a01d38710f56295370">shape_creator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFactory__Shape.html#a9a8122d1db8154ad5304d01ef20827cb">creators</a></td></tr>
+<tr class="separator:a9a8122d1db8154ad5304d01ef20827cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea578b53a334f7f8d1bf757e08c6479"><td class="memItemLeft" align="right" valign="top">std::list&lt; void * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFactory__Shape.html#a6ea578b53a334f7f8d1bf757e08c6479">list_handler</a></td></tr>
+<tr class="separator:a6ea578b53a334f7f8d1bf757e08c6479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -125,6 +155,30 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>Implements the factory pattern on shape_creator (with <code>string</code> indexin).</p>
 <p>Singleton is used to guaranty unique load of shared libraries. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a256d1d4073a18db8ba2ee9d16853562c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Factory_Shape::Factory_Shape </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Load all the dynamic library corresponding to the names in factory_shape.config. </p>
+
+</div>
+</div>
 <a class="anchor" id="ad41b00be907341cc4ecdadafbc6cf6e1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -245,6 +299,49 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a9a8122d1db8154ad5304d01ef20827cb"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std :: map&lt; std :: string const , <a class="el" href="factory__shape_8hpp.html#a207047cdc22886a01d38710f56295370">shape_creator</a> &gt; Factory_Shape::creators</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>record the shape creators associated to string. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ea578b53a334f7f8d1bf757e08c6479"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std :: list&lt; void * &gt; Factory_Shape::list_handler</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Used to record all handlers from dlopen. They are needed to dlclose them before leaving. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="factory__shape_8hpp.html">factory_shape.hpp</a></li>
 <li><a class="el" href="factory__shape_8cpp.html">factory_shape.cpp</a></li>
@@ -252,7 +349,7 @@ Additional Inherited Members</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 28 2016 13:28:13 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 2 2016 13:59:52 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

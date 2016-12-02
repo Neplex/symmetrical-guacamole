@@ -1,0 +1,34 @@
+<map id="shape.hpp" name="shape.hpp">
+<area shape="rect" id="node2" href="$export__eps_8hpp.html" title="This module provides a way to create a simple picture in postscript. " alt="" coords="312,80,423,107"/>
+<area shape="rect" id="node7" href="$factory__shape_8hpp.html" title="This module provides a factory to generate shape. " alt="" coords="859,80,988,107"/>
+<area shape="rect" id="node9" href="$shape_8cpp.html" title="shape.cpp" alt="" coords="599,155,682,181"/>
+<area shape="rect" id="node12" href="$shape__binary_8hpp.html" title="This module provides a way to create a simple binary shape operators. " alt="" coords="1501,80,1625,107"/>
+<area shape="rect" id="node17" href="$test__shape_8cpp.html" title="This module provides tests for the shapes. " alt="" coords="2085,155,2196,181"/>
+<area shape="rect" id="node18" href="$shape__circle_8hpp.html" title="This module provides basic circle shape. " alt="" coords="1794,80,1914,107"/>
+<area shape="rect" id="node20" href="$shape__difference_8hpp.html" title="This module provide the binary composition of two shapes such that a point is contained if it is cont..." alt="" coords="1019,80,1166,107"/>
+<area shape="rect" id="node21" href="$shape__intersect_8hpp.html" title="This module provide the binary composition of two shapes such that a point is contained if it is cont..." alt="" coords="1190,80,1329,107"/>
+<area shape="rect" id="node22" href="$shape__minus_8hpp.html" title="This module provide the binary composition of two shapes such that a point is contained if it is cont..." alt="" coords="1353,80,1477,107"/>
+<area shape="rect" id="node23" href="$shape__rotate_8hpp.html" title="This module provides a way to rotate shapes. " alt="" coords="1938,80,2061,107"/>
+<area shape="rect" id="node25" href="$shape__scale_8hpp.html" title="This module provides a way to scale a shape. " alt="" coords="2135,80,2255,107"/>
+<area shape="rect" id="node27" href="$shape__square_8hpp.html" title="This module provides the basic square shape. " alt="" coords="2279,80,2407,107"/>
+<area shape="rect" id="node29" href="$shape__translate_8hpp.html" title="This module provides a way to translate shapes. " alt="" coords="2431,80,2570,107"/>
+<area shape="rect" id="node31" href="$shape__triangle_8hpp.html" title="This module provides the basic triangle shape. " alt="" coords="2594,80,2725,107"/>
+<area shape="rect" id="node33" href="$shape__union_8hpp.html" title="This module provide the binary composition of two shapes such that a point is contained if it is cont..." alt="" coords="1650,80,1770,107"/>
+<area shape="rect" id="node3" href="$export__eps_8cpp.html" title="export_eps.cpp" alt="" coords="464,155,575,181"/>
+<area shape="rect" id="node4" href="$test__export__eps_8cpp.html" title="This module provides a simple test for exporting eps: it draws a &quot;H&quot; figure into a h..." alt="" coords="5,155,145,181"/>
+<area shape="rect" id="node5" href="$test__read_8cpp.html" title="This module provides tests for the shapes. " alt="" coords="170,155,271,181"/>
+<area shape="rect" id="node6" href="$test__read__export_8cpp.html" title="This module provides tests for the shapes. " alt="" coords="295,155,439,181"/>
+<area shape="rect" id="node8" href="$factory__shape_8cpp.html" title="factory_shape.cpp" alt="" coords="705,155,835,181"/>
+<area shape="rect" id="node10" href="$test__factory__1_8cpp.html" title="This module provides first tests for the factory. " alt="" coords="858,155,989,181"/>
+<area shape="rect" id="node11" href="$test__factory__2_8cpp.html" title="This module provides more tests for the factory. " alt="" coords="1013,155,1143,181"/>
+<area shape="rect" id="node13" href="$shape__difference_8cpp.html" title="shape_difference.cpp" alt="" coords="1167,155,1314,181"/>
+<area shape="rect" id="node14" href="$shape__intersect_8cpp.html" title="shape_intersect.cpp" alt="" coords="1338,155,1477,181"/>
+<area shape="rect" id="node15" href="$shape__minus_8cpp.html" title="shape_minus.cpp" alt="" coords="1501,155,1625,181"/>
+<area shape="rect" id="node16" href="$shape__union_8cpp.html" title="shape_union.cpp" alt="" coords="1650,155,1770,181"/>
+<area shape="rect" id="node19" href="$shape__circle_8cpp.html" title="shape_circle.cpp" alt="" coords="1794,155,1914,181"/>
+<area shape="rect" id="node24" href="$shape__rotate_8cpp.html" title="shape_rotate.cpp" alt="" coords="1938,155,2061,181"/>
+<area shape="rect" id="node26" href="$shape__scale_8cpp.html" title="shape_scale.cpp" alt="" coords="2221,155,2341,181"/>
+<area shape="rect" id="node28" href="$shape__square_8cpp.html" title="shape_square.cpp" alt="" coords="2365,155,2493,181"/>
+<area shape="rect" id="node30" href="$shape__translate_8cpp.html" title="shape_translate.cpp" alt="" coords="2517,155,2655,181"/>
+<area shape="rect" id="node32" href="$shape__triangle_8cpp.html" title="shape_triangle.cpp" alt="" coords="2679,155,2810,181"/>
+</map>

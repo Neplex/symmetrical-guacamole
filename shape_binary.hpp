@@ -27,11 +27,18 @@
 template <bool (*op)(bool const, bool const)>
 class Shape_Binary : public Shape {
 public:
-  Shape_Binary(Shape *const shape_1, Shape *const shape_2) {}
+  Shape_Binary(Shape *const shape_1, Shape *const shape_2) {
+    this->shape_1 = shape_1;
+    this->shape_2 = shape_2;
+  }
 
   bool contains(double const x, double const y) const {
-    // +++ return true ;
+    return op(shape_1->contains(x, y), shape_2->contains(x, y));
   }
+
+protected:
+  Shape *shape_1;
+  Shape *shape_2;
 };
 
 /*!
