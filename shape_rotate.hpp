@@ -32,6 +32,7 @@ public:
   Shape_Rotate(Shape *sh, int angle)
       : sh(sh), c_alpha(cos(angle)), s_alpha(sin(angle)) {}
   bool contains(double const x, double const y) const;
+  ~Shape_Rotate() { delete sh; }
 };
 
 #endif

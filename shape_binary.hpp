@@ -35,6 +35,10 @@ public:
   bool contains(double const x, double const y) const {
     return op(shape_1->contains(x, y), shape_2->contains(x, y));
   }
+  ~Shape_Binary() {
+    delete shape_1;
+    delete shape_2;
+  }
 
 protected:
   Shape *shape_1;
