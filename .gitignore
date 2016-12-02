@@ -29,3 +29,7 @@
 *.app
 
 test_ok
+test_read
+test_read_export
+test_factory_1
+test_factory_2
