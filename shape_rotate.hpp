@@ -29,6 +29,8 @@ class Shape_Rotate : public Shape {
   double const c_alpha, s_alpha;
 
 public:
+  Shape_Rotate(Shape *sh, int angle)
+      : sh(sh), c_alpha(cos(angle)), s_alpha(sin(angle)) {}
   bool contains(double const x, double const y) const;
 };
 

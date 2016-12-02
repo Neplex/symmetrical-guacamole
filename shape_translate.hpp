@@ -30,6 +30,7 @@ class Shape_Translate : public Shape {
   double const ty;
 
 public:
+  Shape_Translate(Shape *sh, int tx, int ty) : sh(sh), tx(tx), ty(ty) {}
   bool contains(double const x, double const y) const;
 };
 

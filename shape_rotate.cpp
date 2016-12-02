@@ -4,6 +4,5 @@
 #define NDEBUG 1
 
 bool Shape_Rotate::contains(double const x, double const y) const {
-  return sh->contains(x * cos(c_alpha) - y * (sin(s_alpha)),
-                      x * sin(s_alpha) - y * (cos(c_alpha)));
+  return sh->contains(x * s_alpha - y * c_alpha, x * c_alpha + y * s_alpha);
 }
