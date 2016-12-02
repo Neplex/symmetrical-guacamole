@@ -60,8 +60,10 @@ void Factory_Shape::add_shape_dl(string const &s) {
   register_shape(s, cr_i);
 }
 
-void Factory_Shape::register_shape(std::string const &id, shape_creator s_c) {}
+void Factory_Shape::register_shape(std::string const &id, shape_creator s_c) {
+  creators[id] = s_c;
+}
 
 Shape *Factory_Shape::create_shape(std::string const &id, U_Sh_d_Stack &c_s) {
-  return NULL;
+  return creators[id](c_s);
 }
