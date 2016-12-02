@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
@@ -83,13 +83,21 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">Export_Eps Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;export_eps.hpp&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for Export_Eps:</div>
+<div class="dyncontent">
+<div class="center"><img src="classExport__Eps__coll__graph.png" border="0" usemap="#Export__Eps_coll__map" alt="Collaboration graph"/></div>
+<map name="Export__Eps_coll__map" id="Export__Eps_coll__map">
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -101,6 +109,17 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0b52177be74cabbbc45c6be1a0ed9ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d88240da10eaebd951f72b32b0e0876"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExport__Eps.html#a6d88240da10eaebd951f72b32b0e0876">~Export_Eps</a> ()</td></tr>
 <tr class="separator:a6d88240da10eaebd951f72b32b0e0876"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a162678741f91e381d1d104ef190b1819"><td class="memItemLeft" align="right" valign="top">unsigned int const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExport__Eps.html#a162678741f91e381d1d104ef190b1819">x_max</a></td></tr>
+<tr class="separator:a162678741f91e381d1d104ef190b1819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2306c468ab2b3502fb6734ceceb4430"><td class="memItemLeft" align="right" valign="top">unsigned int const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExport__Eps.html#ac2306c468ab2b3502fb6734ceceb4430">y_max</a></td></tr>
+<tr class="separator:ac2306c468ab2b3502fb6734ceceb4430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab442f141d59da57ce6af90cc4cbad6ed"><td class="memItemLeft" align="right" valign="top">unsigned int const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExport__Eps.html#ab442f141d59da57ce6af90cc4cbad6ed">res</a></td></tr>
+<tr class="separator:ab442f141d59da57ce6af90cc4cbad6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5457b595981d4250fd8921daa51c722f"><td class="memItemLeft" align="right" valign="top">ofstream&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classExport__Eps.html#a5457b595981d4250fd8921daa51c722f">output</a></td></tr>
+<tr class="separator:a5457b595981d4250fd8921daa51c722f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a36580383e781f9cb84766c836cff98ed"></a>
@@ -203,6 +222,91 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Field Documentation</h2>
+<a class="anchor" id="a5457b595981d4250fd8921daa51c722f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ofstream Export_Eps::output</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Stream to the generated output eps file </p>
+
+</div>
+</div>
+<a class="anchor" id="ab442f141d59da57ce6af90cc4cbad6ed"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int const Export_Eps::res</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Pixel is a square of length size res. </p>
+
+</div>
+</div>
+<a class="anchor" id="a162678741f91e381d1d104ef190b1819"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int const Export_Eps::x_max</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>0 &lt;= x &lt;= x_max </p>
+
+</div>
+</div>
+<a class="anchor" id="ac2306c468ab2b3502fb6734ceceb4430"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int const Export_Eps::y_max</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>0 &lt;= y &lt;= y_max </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="export__eps_8hpp.html">export_eps.hpp</a></li>
 <li><a class="el" href="export__eps_8cpp.html">export_eps.cpp</a></li>
@@ -210,7 +314,7 @@ Public Member Functions</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 28 2016 13:28:13 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 2 2016 13:59:52 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

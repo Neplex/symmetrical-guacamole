@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['main',['main',['../test__export__eps_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;test_export_eps.cpp'],['../test__factory__1_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;test_factory_1.cpp'],['../test__factory__2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;test_factory_2.cpp'],['../test__ok_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main():&#160;test_ok.cpp'],['../test__read_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;test_read.cpp'],['../test__read__export_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627',1,'main(int argc, char **argv):&#160;test_read_export.cpp'],['../test__shape_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe',1,'main(void):&#160;test_shape.cpp']]],
-  ['minus_5f',['minus_',['../shape__minus_8cpp.html#a600ff9d78bb58aef7598da0b6648919e',1,'minus_(bool const b1, bool const b2):&#160;shape_minus.cpp'],['../test__shape_8cpp.html#a4b2b1598463cc7fcb666f619e017b2f4',1,'minus_(bool const , bool const ):&#160;shape_minus.cpp']]]
+  ['get_5fdouble',['get_double',['../classU__Sh__d.html#a6eca00e839d6292c384d226290a0f087',1,'U_Sh_d']]],
+  ['get_5fshape',['get_shape',['../classU__Sh__d.html#ac830c1d6af3bef985e184707b59bcfe2',1,'U_Sh_d']]]
 ];

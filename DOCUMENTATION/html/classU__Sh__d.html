@@ -62,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Data&#160;Structures</span></a></li>
       <li><a href="classes.html"><span>Data&#160;Structure&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li><a href="functions.html"><span>Data&#160;Fields</span></a></li>
     </ul>
   </div>
@@ -83,13 +83,23 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a>  </div>
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
+<a href="#pri-attribs">Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">U_Sh_d Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;u_sh_d_stack.hpp&gt;</code></p>
+<div class="dynheader">
+Collaboration diagram for U_Sh_d:</div>
+<div class="dyncontent">
+<div class="center"><img src="classU__Sh__d__coll__graph.png" border="0" usemap="#U__Sh__d_coll__map" alt="Collaboration graph"/></div>
+<map name="U__Sh__d_coll__map" id="U__Sh__d_coll__map">
+<area shape="rect" id="node5" href="classShape.html" title="{Shape\n||+ contains()\l+ ~Shape()\l}" alt="" coords="375,5,466,97"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -101,10 +111,57 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac830c1d6af3bef985e184707b59bcfe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6eca00e839d6292c384d226290a0f087"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classU__Sh__d.html#a6eca00e839d6292c384d226290a0f087">get_double</a> ()</td></tr>
 <tr class="separator:a6eca00e839d6292c384d226290a0f087"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:ae1a2da1e490e39cf43e8c246ecafd695"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom">{ <a class="el" href="classU__Sh__d.html#ae1a2da1e490e39cf43e8c246ecafd695a387ef345208801204ff9f25ac1271ce2">SHAPE</a>, 
+<a class="el" href="classU__Sh__d.html#ae1a2da1e490e39cf43e8c246ecafd695a4fb9742a23667c8d76e97325c95430b0">DOUBLE</a>
+ }</td></tr>
+<tr class="separator:ae1a2da1e490e39cf43e8c246ecafd695"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a71f73cb4edc6535f3d43a035e18f1f4f"><td class="memItemLeft" align="right" valign="top">enum U_Sh_d:: { ... } &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classU__Sh__d.html#a71f73cb4edc6535f3d43a035e18f1f4f">type</a></td></tr>
+<tr class="separator:a71f73cb4edc6535f3d43a035e18f1f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f0792a50f2ad640754154012435e986"><td class="memItemLeft" >union {</td></tr>
+<tr class="memitem:ad9bed0dbec1349f19e930bc4d2a85a56"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="classShape.html">Shape</a> *&#160;&#160;&#160;<a class="el" href="classU__Sh__d.html#a6266c37ed2b745e0ed784d7b38425164">sh</a></td></tr>
+<tr class="separator:ad9bed0dbec1349f19e930bc4d2a85a56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd19645357561d2e85662b47d2564a5b"><td class="memItemLeft" >&#160;&#160;&#160;double&#160;&#160;&#160;<a class="el" href="classU__Sh__d.html#a0ab32330ae0489a7cbd1f514671ec6af">d</a></td></tr>
+<tr class="separator:afd19645357561d2e85662b47d2564a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f0792a50f2ad640754154012435e986"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classU__Sh__d.html#a4f0792a50f2ad640754154012435e986">val</a></td></tr>
+<tr class="separator:a4f0792a50f2ad640754154012435e986"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Used to store both double and <a class="el" href="classShape.html">Shape</a> *. </p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a class="anchor" id="ae1a2da1e490e39cf43e8c246ecafd695"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">anonymous enum</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>The type of value held </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="ae1a2da1e490e39cf43e8c246ecafd695a387ef345208801204ff9f25ac1271ce2"></a>SHAPE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="ae1a2da1e490e39cf43e8c246ecafd695a4fb9742a23667c8d76e97325c95430b0"></a>DOUBLE&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="af107264457d03a53a1453a68e27dbc08"></a>
 <div class="memitem">
 <div class="memproto">
@@ -229,13 +286,39 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a71f73cb4edc6535f3d43a035e18f1f4f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum { ... }  U_Sh_d::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The type of value held </p>
+
+</div>
+</div>
+<a class="anchor" id="a4f0792a50f2ad640754154012435e986"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union { ... }    U_Sh_d::val</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>The held value. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="u__sh__d__stack_8hpp.html">u_sh_d_stack.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 28 2016 13:28:13 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 2 2016 13:59:52 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>

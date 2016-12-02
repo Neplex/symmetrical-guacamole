@@ -1,0 +1,7 @@
+<map id="unique.hpp" name="unique.hpp">
+<area shape="rect" id="node2" href="$factory__shape_8hpp.html" title="This module provides a factory to generate shape. " alt="" coords="200,80,329,107"/>
+<area shape="rect" id="node3" href="$factory__shape_8cpp.html" title="factory_shape.cpp" alt="" coords="5,155,135,181"/>
+<area shape="rect" id="node4" href="$shape_8cpp.html" title="shape.cpp" alt="" coords="158,155,241,181"/>
+<area shape="rect" id="node5" href="$test__factory__1_8cpp.html" title="This module provides first tests for the factory. " alt="" coords="265,155,395,181"/>
+<area shape="rect" id="node6" href="$test__factory__2_8cpp.html" title="This module provides more tests for the factory. " alt="" coords="419,155,550,181"/>
+</map>

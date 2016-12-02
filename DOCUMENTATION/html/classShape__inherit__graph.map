@@ -1,0 +1,9 @@
+<map id="Shape" name="Shape">
+<area shape="rect" id="node2" href="$classShape__Binary.html" title="{Shape_Binary\&lt; op \&gt;\n||+ Shape_Binary()\l+ contains()\l}" alt="" coords="5,160,147,252"/>
+<area shape="rect" id="node3" href="$classShape__Circle.html" title="{Shape_Circle\n||+ contains()\l}" alt="" coords="170,167,270,245"/>
+<area shape="rect" id="node4" href="$classShape__Rotate.html" title="{Shape_Rotate\n|&#45; sh\l&#45; c_alpha\l&#45; s_alpha\l|+ contains()\l}" alt="" coords="294,153,399,259"/>
+<area shape="rect" id="node5" href="$classShape__Scale.html" title="{Shape_Scale\n|&#45; sh\l&#45; coef\l|+ Shape_Scale()\l+ contains()\l+ ~Shape_Scale()\l}" alt="" coords="423,145,550,267"/>
+<area shape="rect" id="node6" href="$classShape__Square.html" title="{Shape_Square\n||+ contains()\l}" alt="" coords="575,167,681,245"/>
+<area shape="rect" id="node7" href="$classShape__Translate.html" title="{Shape_Translate\n|&#45; sh\l&#45; tx\l&#45; ty\l|+ contains()\l}" alt="" coords="705,153,825,259"/>
+<area shape="rect" id="node8" href="$classShape__Triangle.html" title="{Shape_Triangle\n||+ contains()\l}" alt="" coords="849,167,961,245"/>
+</map>

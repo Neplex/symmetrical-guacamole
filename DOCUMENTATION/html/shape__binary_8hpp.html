@@ -92,6 +92,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &quot;<a class="el" href="shape_8hpp.html">shape.hpp</a>&quot;</code><br />
 <code>#include &lt;assert.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for shape_binary.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="shape__binary_8hpp__incl.png" border="0" usemap="#shape__binary_8hpp" alt=""/></div>
+<map name="shape__binary_8hpp" id="shape__binary_8hpp">
+<area shape="rect" id="node2" href="shape_8hpp.html" title="This module provides the base class for representing geometrical shapes. " alt="" coords="154,80,237,107"/>
+<area shape="rect" id="node4" href="u__sh__d__stack_8hpp.html" title="This module provides a simple test for exporting eps: it draws a &quot;H&quot; figure into a h..." alt="" coords="95,155,223,181"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="shape__binary_8hpp__dep__incl.png" border="0" usemap="#shape__binary_8hppdep" alt=""/></div>
+<map name="shape__binary_8hppdep" id="shape__binary_8hppdep">
+<area shape="rect" id="node2" href="shape__difference_8cpp.html" title="shape_difference.cpp" alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="shape__intersect_8cpp.html" title="shape_intersect.cpp" alt="" coords="176,80,315,107"/>
+<area shape="rect" id="node4" href="shape__minus_8cpp.html" title="shape_minus.cpp" alt="" coords="339,80,463,107"/>
+<area shape="rect" id="node5" href="shape__union_8cpp.html" title="shape_union.cpp" alt="" coords="488,80,608,107"/>
+<area shape="rect" id="node6" href="test__shape_8cpp.html" title="This module provides tests for the shapes. " alt="" coords="633,80,743,107"/>
+</map>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Structures</h2></td></tr>
@@ -123,7 +144,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span>                      \</div><div class="line">  Shape * <a class="code" href="shape__rotate_8cpp.html#a8515d6107518355bbbe69c865b8ea44c">create_instance</a> ( <a class="code" href="classU__Sh__d__Stack.html">U_Sh_d_Stack</a> &amp; c_s ) {  \</div><div class="line">    Shape * sh2 = c_s.<a class="code" href="classU__Sh__d__Stack.html#a7dba4f69b9ec460f90b39be3504ddf95">pop_shape</a> () ;            \</div><div class="line">    Shape * sh1 = c_s.<a class="code" href="classU__Sh__d__Stack.html#a7dba4f69b9ec460f90b39be3504ddf95">pop_shape</a> () ;            \</div><div class="line">    return <span class="keyword">new</span> <a class="code" href="classShape__Binary.html">Shape_Binary &lt; op &gt;</a> ( sh1, sh2 ) ;   \</div><div class="line">  }</div></div><!-- fragment --><p>Provide the create_instante function for the given op by instanciating the pattern. </p>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span>                      \</div><div class="line">  Shape * <a class="code" href="shape__scale_8cpp.html#a8515d6107518355bbbe69c865b8ea44c">create_instance</a> ( <a class="code" href="classU__Sh__d__Stack.html">U_Sh_d_Stack</a> &amp; c_s ) {  \</div><div class="line">    Shape * sh2 = c_s.<a class="code" href="classU__Sh__d__Stack.html#a7dba4f69b9ec460f90b39be3504ddf95">pop_shape</a> () ;            \</div><div class="line">    Shape * sh1 = c_s.<a class="code" href="classU__Sh__d__Stack.html#a7dba4f69b9ec460f90b39be3504ddf95">pop_shape</a> () ;            \</div><div class="line">    return <span class="keyword">new</span> <a class="code" href="classShape__Binary.html">Shape_Binary &lt; op &gt;</a> ( sh1, sh2 ) ;   \</div><div class="line">  }</div></div><!-- fragment --><p>Provide the create_instante function for the given op by instanciating the pattern. </p>
 
 </div>
 </div>
@@ -142,7 +163,7 @@ Macros</h2></td></tr>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
-Generated on Mon Nov 28 2016 13:28:13 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
+Generated on Fri Dec 2 2016 13:59:52 for PASD TDM by &#160;<a href="http://www.doxygen.org/index.html">
 <img class="footer" src="doxygen.png" alt="doxygen"/>
 </a> 1.8.11
 </small></address>
