@@ -5,7 +5,7 @@ TDM_NUMBER := 09
 
 TEST_NAME :=  ok export_eps shape factory_1 factory_2 read read_export
 
-SHAPE_EXAMPLE_NUMBERS := 1 2 3 4 5 
+SHAPE_EXAMPLE_NUMBERS := 1 2 3 4 5
 
 SHELL := bash
 
@@ -14,7 +14,7 @@ SHELL := bash
 ##
 .PHONY : help
 
-help : 
+help :
 	@echo "Available:"
 	@echo "- ok => to test dynamic library"
 	@echo "- K => compilation (should not produce any error nor warning)"
@@ -75,7 +75,7 @@ CPP_FLAGS := -std=c++98 -Wall -Wextra -pedantic -ggdb $(CPP_FLAG_OFF_UNUSED)
 
 %.o : %.cpp $(wildcard *.hpp) $(MAKEFILE_LIST)
 	$(CCPP) -c $(CPP_FLAGS) -o $@ $<
-# remove symbol create_instance from .o 
+# remove symbol create_instance from .o
 	strip --strip-symbol=create_instance $@
 
 all : $(MODULES_CPP) $(MODULES_SHAPE_SO)
@@ -118,17 +118,17 @@ TF% : test_factory_%
 MF% : test_factory_%
 	$(VALGRIND) ./test_factory_$*
 
-TR% : test_read 
+TR% : test_read
 	./test_read $*
 
-MR% : test_read 
-	$(VALGRIND) ./test_read $* 
+MR% : test_read
+	$(VALGRIND) ./test_read $*
 
-TE% : test_read_export 
+TE% : test_read_export
 	./test_read_export $*
-	diff -Z  fig$*.eps fig$*.$(OUTPUT_EXPECTED_SUFFIX_EPS) 
+	diff -Z  fig$*.eps fig$*.$(OUTPUT_EXPECTED_SUFFIX_EPS)
 
-ME% : test_read_export 
+ME% : test_read_export
 	$(VALGRIND) ./test_read_export $*
 
 ok : test_ok libok.so
@@ -153,7 +153,7 @@ clean:
 
 ##
 ## PRODUCE THE ARCHIVE (to upload on Celene)
-## 
+##
 .PHONY : pack
 
 
@@ -167,5 +167,3 @@ TGZ_FILE := $(TDM_DIR)/TDM_$(TDM_NUMBER)
 pack :
 	[ -e cr.pdf ] || echo > cr.pdf
 	cd .. ; tar czf $(TGZ_FILE).tgz $(TGZ_INCLUDED_FILES:%=$(TDM_DIR)/%)
-
-
