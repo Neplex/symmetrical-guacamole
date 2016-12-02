@@ -1,12 +1,5 @@
-# include <iostream>
+#include <iostream>
 
+using namespace std;
 
-using namespace std ;
-
-
-extern "C" 
-void call_ok () {
-  cout << "<<-- OK -->>" << endl ;
-}
-
-
+extern "C" void call_ok() { cout << "<<-- OK -->>" << endl; }
